@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" 
+	author="TSNUK OSGeo Research and Education Lamb mailto:d[dot]svidzinska[at]gmail.com"
+	version="0.1_2015-08-10"
+	shortdescription="Ramsar Sites" 
+	description="Preset for the mapping of wetlands of international importance (Ramsar Sites) in Ukraine"
+	uk.shortdescription="Рамсарські водно-болотні угіддя" 
+	uk.description="Шаблон для картографування водно-болотних угідь міжнародного значення (Рамсарських водно-болотних угідь) України"
+	ru.shortdescription="Рамсарские водно-болтные угодья" 
+	ru.description="Шаблон для картографирования водно-болотных угодий международного значения (Рамсарских водно-болотных угодий) Украины"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://josm.openstreetmap.de/tagging-preset-1.0 tagging-preset.xsd" >
+<group name="Conservation area of Ukraine" uk.name="Природно-заповідний фонд України" ru.name="ПЗФ Украины">
+  <item name="Ramsar Site"  uk.name="Рамсарське ВБУ" ru.name="Рамсарское ВБУ" type="closedway">
+    <text key="name" text="Назва" uk.name="Назва" ru.name="Название"/>
+    <text key="name:uk" text="Назва_uk" uk.name="Назва_uk" ru.name="Название_uk"/>
+    <text key="name:ru" text="Назва_ru" uk.name="Назва_ru" ru.name="Название_ru"/>
+    <text key="name:en" text="Назва_en" uk.name="Назва_en" ru.name="Название_en"/>
+    <text key="operator" text="Відповідальна установа" uk.name="Назва" ru.name="Название"/>
+    <text key="website" text="website" default="https://rsis.ramsar.org/ris/site_number"/>
+    <text key="wikipedia" text="wikipedia"/>
+        <key key="boundary" value="protected_area"/>
+        <key key="ramsar" value="yes"/>
+        <key key="protect_class" value="98" />
+        <key key="source" value="Ministry of Ecology and Natural Resources of Ukraine, Department of Protected Areas"/>
+         <combo text="Джерело геометрії контурів" uk.text="Джерело геометрії контурів" ru.text="Источник геометрии контуров" key="source:geometry">
+            <list_entry value="Mapbox" short_description="Mapbox Imagery"/>
+            <list_entry value="Bing" short_description="Bing Imagery"/>
+        </combo>
+  </item>
+</group>
+</presets>
+
