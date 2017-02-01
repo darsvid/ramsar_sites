@@ -21,7 +21,7 @@ print maps in English and Ukrainian
 ESRI Shapefiles for the objects published via the [Ramsar Sites Information Service](https://rsis.ramsar.org/)
 
 ## note
-Some discrepancies are might be found between maps and data from this repo and from the [Ramsar Sites Information Service](https://rsis.ramsar.org/). This is because the RSIS might be a bit late with the submitted information update.
+Some discrepancies might be found between maps and data from this repo and from the [Ramsar Sites Information Service](https://rsis.ramsar.org/). This is because the RSIS may be a bit late with the submitted information update.
 
 ## Licenses
 * maps -- [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
